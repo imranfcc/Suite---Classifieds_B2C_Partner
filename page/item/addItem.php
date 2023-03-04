@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6">
-                <div class="border p-3">
+                <div class="border p-3 h-100">
                     <h5 class="border-bottom">Shipment</h5>
                     <div class="mb-3 mt-3">
                         <label for="Condition" class="form-label">Delivery time:</label>
@@ -50,6 +50,9 @@
                         </select>
                     </div>
                 </div>
+            </div>
+            <div class="col-12 ">
+                <h5 class="border-bottom">Price</h5>
             </div>
         </div>
     </form>
