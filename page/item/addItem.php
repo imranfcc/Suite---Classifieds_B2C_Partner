@@ -51,7 +51,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-12 mt-3">
                 <div class=" border p-3">
                     <h5 class="border-bottom">Price</h5>
                     <div class="mb-3 mt-3">
