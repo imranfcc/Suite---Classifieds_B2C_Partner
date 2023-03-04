@@ -12,14 +12,10 @@
 			<span style="font-size:18pt;"></span><br>
 			
 			<form method="POST" action="" style="margin-top:25px;">
-				<!--<div class="form-group input-group-lg">
-					<label for="usr">Username:</label>
-					<input type="text" class="form-control" name='WebLoginUsername' id="username">
-				</div>-->
-				<div class="form-group input-group-lg">
-					<label for="pwd">Provide Product Code: UPC & SKU</label>
-					<input type="text" class="form-control" name="SearchItem" id="SearchItem">
-				</div>
+                <div class="input-group input-group-lg mb-3">
+                    <input type="text" class="form-control" placeholder="UPC / EAN / ISBN / SKU " name="SearchItem" id="SearchItem">
+                    <button class="btn btn-success" type="submit">Go</button> 
+                </div>
 				</button type="submit" class="btn btn-primary btn-lg " style="float:right;" name="Script" value="Login" ></button>
 			</form>
 		</div>
