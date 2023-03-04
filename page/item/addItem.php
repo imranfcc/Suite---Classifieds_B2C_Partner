@@ -8,12 +8,21 @@
 <!-- Start : Your Page Source -->
 
 <div class="container">
-    <h2>Add New Item</h2>
+    <h3>Add New Item</h3>
     <hr>
     <form method="POST" action="" style="margin-top:25px;">
         <div class="mb-3 mt-3">
             <label for="title" class="form-label">Item Title:</label>
             <input type="text" class="form-control" id="AddItem_Title" placeholder="Item Title" name="AddItem_Title">
+        </div>
+        <h3>Your offer of this item</h3>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h4>Stocks</h4>
+            </div>
+            <div class="col-12 col-md-6">
+                <h4>Shipment</h4>
+            </div>
         </div>
     </form>
 </div>
