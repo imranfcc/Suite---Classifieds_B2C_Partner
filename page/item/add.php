@@ -10,7 +10,7 @@
 	<div class="row">
 		<div class="col-12 col-md-6 py-5">
 			<span style="font-size:18pt;"></span><br>
-			
+			// TODO: Stil to fix this form
 			<form method="POST" action="" style="margin-top:25px;">
                 <div class="input-group input-group-lg mb-3">
                     <input type="text" class="form-control" placeholder="UPC / EAN / ISBN / SKU " name="SearchItem" id="SearchItem">
@@ -20,7 +20,8 @@
 			</form>
 		</div>
 		<div class="col-12 col-md-6 py-5">
-		
+            <h2>Add new item <h2>
+            <a href="item/addItem" class="btn btn-lg btn-primary ">Add New Item</a>
 		</div>
 	</div>
 </div>

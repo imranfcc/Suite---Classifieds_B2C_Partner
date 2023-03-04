@@ -2,6 +2,7 @@
 
 
 insert_page('item/add', 'item/add.php', 'User'); // 
+insert_page('item/addItem', 'item/addItem.php', 'User'); // 
 
 // Lock home page 
 $sql = "SELECT * FROM `pages` WHERE `Page`='Home.php'";
