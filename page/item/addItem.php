@@ -20,6 +20,19 @@
             <div class="col-12 col-md-6">
                 <div class="border p-3">
                     <h4 class="border-bottom">Stocks</h4>
+                    <div class="mb-3 mt-3">
+                        <label for="Condition" class="form-label">Condition:</label>
+                        <select class="form-select " >
+                            <option value="New">New</option>
+                            <option value="asNew">as New</option>
+                            <option value="Good">Good</option>
+                            <option value="Reasonable">Reasonable</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="quantity" class="form-label">Quantity:</label>
+                        <input type="text" class="form-control" id="AddItem_Quantity" placeholder="Quantity" name="AddItem_Quantity">
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-md-6">
